@@ -2,6 +2,8 @@ public class Main {
     public static void main(String[] args) {
 
         calcFeetAndInchesToCentimeters(16);
+        System.out.println(SecondsAndMinutes.getDurationString(87,103));
+        System.out.println(SecondsAndMinutes.getDurationString(125));
 
 
     }
@@ -26,4 +28,5 @@ public class Main {
         }
         return -1;
     }
+
 }
